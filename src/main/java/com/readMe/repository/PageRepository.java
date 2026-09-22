@@ -1,0 +1,10 @@
+package com.readMe.repository;
+
+import com.readMe.entity.Page;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface PageRepository extends JpaRepository<Page, Long> {
+    List<Page> findByBookIdOrderByPageNumberAsc(Long bookId);
+}
