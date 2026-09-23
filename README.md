@@ -1,6 +1,6 @@
-# StoryShelf — Backend
+# ReadMe — Backend
 
-Spring Boot backend for the StoryShelf books reading website.
+Spring Boot backend for the ReadMe books reading website.
 
 ## Stack
 
